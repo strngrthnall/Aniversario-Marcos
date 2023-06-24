@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meu Aniversário</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/main.sass">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+  <header class="header-bar">
+      <h2 class="header-bar__text">Aniversario do Marcos</h2>
+  </header>
+
+  <main class="hero">
+    <div class="container" id="hero--show--before">
+      <p class="hero__text">
+        O aniversário mais importante do Brasil, em apenas: <span id="contador-antes"></span>
+      </p>
+      <div class="infos-bar" >
+        <ul class="infos-bar__infos">
+          <li class="infos-bar__infos__item">
+            <b>Localização</b>
+            Rio de Janeiro, RJ - Brasil
+          </li>
+          <li class="infos-bar__infos__item">
+            <b>Preço</b>
+            R$ 50,00
+          </li>
+          <li class="infos-bar__infos__item">
+            <b>Quando</b>
+            28/06/2023 às 18hrs
+          </li>
+        </ul>
+        <a href="#" class="button button--primary">
+          Garantir minha vaga
+        </a>
+      </div>
+    </div>
+    <div class="container" id="hero--show--after">
+      <p class="hero__text">
+        Infelizmente o evento já passou. O próximo será em: <span id="contador-depois"></span>
+      </p>
+      <div class="infos-bar" >
+        <ul class="infos-bar__infos">
+          <li class="infos-bar__infos__item">
+            <b>Localização</b>
+            Rio de Janeiro, RJ - Brasil
+          </li>
+          <li class="infos-bar__infos__item">
+            <b>Preço</b>
+            R$ 50,00
+          </li>
+          <li class="infos-bar__infos__item">
+            <b>Quando</b>
+            <span id="data"></span> às 21hrs
+          </li>
+        </ul>
+        <a href="#" class="button button--primary">
+          Garantir minha vaga
+        </a>
+      </div>
+    </div>
+  </main>
+
+  <script src="scripts/main.js"></script>
+</body>
+</html>
